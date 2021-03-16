@@ -1,0 +1,105 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+}
+.bg-img{
+	background-image: url('8.jpg');
+	height: 100%;
+	/*margin-top: 110px;*/
+	filter: blur(3px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box{
+	background-color: rgba(153,153,153,0.2);
+	width: 100%;
+	top: 0cm;
+	height: 3.3cm;
+	position: absolute;
+}
+h1{
+	color: white;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 40px;
+	font-family: viner hand itc;
+	font-size: 38px;
+}
+.box1{
+	background-color: rgba(155,200,255,0.5);
+	position: absolute;
+	top:4cm;
+	left: 15cm;
+	width: 14.5cm;
+	height: 14cm;
+	padding-top: 15px;
+	padding-left: 55px;
+}
+.box1 input{
+	padding: 18px;
+	border: 3px solid black;
+	width: 7.3cm;
+	border-radius: 8px;
+	margin: 5px;
+}
+.date{
+	position: absolute;
+	top: 6.4cm;
+	left: 15cm;
+	padding-top: 15px;
+	padding-left: 65px;
+}
+.date input{
+	top: 5.5cm;
+	left: 16.8cm;
+	padding: 18px;
+	border: 3px solid black;
+	border-radius: 8px;
+}
+.date select{
+	top: 7.5cm;
+	left: 16.8cm;
+	width: 8cm;
+	padding: 18px;
+	border: 3px solid black;
+	border-radius: 8px;
+	margin: 5px;
+}
+.button{
+	position: absolute;
+	padding: 12px;
+	background-color: green;
+	font-size: 25px;
+	color: white;
+	border: none;
+	top: 16.2cm;
+	left: 21.0cm;
+	cursor: pointer;
+}
+.button:hover{
+	color: black;
+	transition: 0.8s;
+}
+.footer{
+	position: absolute;
+	top: 18.2cm;
+	width: 100%;
+	height: 3.92cm;
+	background-color: rgb(0,0,125);
+	color: white;
+	text-align: center;
+}
+.head{
+	position: absolute;
+	top: 2.2cm;
+	left: 28cm;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+a:hover{
+	color: red;
+}

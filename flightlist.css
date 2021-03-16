@@ -1,0 +1,59 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+}
+.bg-img{
+	background-image: url('2.jpg');
+	height: 100%;
+	/*margin-top: 110px;*/
+	filter: blur(3px);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.box{
+	background-color: rgba(153,153,153,0.5);
+	width: 100%;
+	top: 0cm;
+	height: 3.3cm;
+	position: absolute;
+}
+h1{
+	color: white;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 40px;
+	font-family: viner hand itc;
+	font-size: 38px;
+}
+table {
+  position: absolute;
+  top: 4.2cm;
+  left: 3.9cm;
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 80%;
+}
+td, th {
+  border: 5px solid #dddddd;
+  text-align: center;
+  padding: 15px;
+}
+tr:nth-child(even) {
+  background-color: white;
+  color: black;
+}
+tr:nth-child(odd) {
+  background-color: white;
+  color: black;
+}
+button{
+	background-color: green;
+	color: white;
+	padding: 18px;
+	border: none;
+	border-radius: 15px;
+}
+button:hover{
+	box-shadow: 2px 2px 2px 2px black;
+}

@@ -1,0 +1,65 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+}
+.bg-img{
+	background-image: url('1.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	filter: blur(9px);
+}
+.box{
+	background-color: rgba(153,153,153,0.7);
+	width: 100%;
+	top: 0cm;
+	height: 3.3cm;
+	position: absolute;
+}
+h1{
+	color: white;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 40px;
+	font-family: viner hand itc;
+	font-size: 38px;
+}
+.input{
+	position: absolute;
+	top: 8cm;
+	left: 17.5cm;
+}
+input{
+	padding: 15px;
+	width: 5cm;
+}
+.head{
+	position: absolute;
+	top: 2.2cm;
+	left: 28cm;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+a:hover{
+	color: red;
+}
+button{
+	border: none;
+	background-color: green;
+	color: white;
+	font-size: 25px;
+	cursor: pointer;
+	position: absolute;
+	padding: 18px;
+	top: 15.3cm;
+	left: 17.5cm;
+	width: 5.8cm;
+}
+button:hover{
+	background-color: black;
+	color: green;
+	transition: 0.5s;
+}

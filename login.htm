@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>||LOGIN||</title>
+	<link rel="stylesheet" type="text/css" href="login.css">
+<script>
+function Function(){
+if(email.value=="")
+		{
+			window.alert("please enter your Email Id");
+			return false;
+		}
+		if(email.value.indexOf("@",0)<0)
+		{
+			window.alert("please enter valid email");
+			return false;
+		}
+		if(email.value.indexOf(".",0)<0)
+		{
+			window.alert("please enter valid email");
+			return false;
+		}
+	   if(pass.value=="")
+		{
+			window.alert("please enter your password");
+			return false;
+		}
+
+}		
+
+</script>
+</head>
+<body>
+<div class="bg-img"></div>
+<div class="box"><h1>Chale Chalo</h1></div>
+<div class="head">
+<a href="abhishek.html">HOME</a>
+<a href="train.htm">BOOK NOW</a>
+<a href="contact.htm">CONTACT US</a>
+</div>
+<form>
+<div class="input">
+	<input type="text" placeholder="E-mail" id="email"><br><br>
+    <input type="password" id="pass" placeholder="password">
+</div>
+<button onclick="Function()">Login</button>
+</form>
+</body>
+</html>

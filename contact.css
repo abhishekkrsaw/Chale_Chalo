@@ -1,0 +1,72 @@
+body,html{
+	margin: 0px;
+	height: 100%;
+}
+.bg-img{
+	background-image: url('5.jpg');
+	background-size: cover;
+	height: 100%;
+	width: 100%;
+	filter: blur(5px);
+}
+.box{
+	background-color: rgba(153,153,153,0.7);
+	width: 100%;
+	top: 0cm;
+	height: 3.3cm;
+	position: absolute;
+}
+h1{
+	color: white;
+	position: absolute;
+	margin-left: 125px;
+	margin-top: 40px;
+	font-family: viner hand itc;
+	font-size: 38px;
+}
+.head{
+	position: absolute;
+	top: 2.2cm;
+	left: 28cm;
+}
+a{
+	text-decoration: none;
+	color: white;
+	padding: 15px;
+}
+a:hover{
+	color: red;
+}
+.text{
+	background-color: rgba(0,0,0,0.5);
+	position: absolute;
+	top: 35%;
+	left: 3.5cm;
+	width: 15cm;
+	height: 7.8cm;
+	padding-left: 80px;
+}
+input{
+	padding: 15px;
+	width: 9cm;
+}
+.button{
+	position: absolute;
+	top: 12.5cm;
+	left: 8.6cm;
+	background-color: black;
+	color: white;
+	width: 2.5cm;
+	font-size: 25px;
+	padding: 15px;
+	padding-left: 20px;
+	cursor: pointer;
+}
+.footer{
+	position: absolute;
+	top: 18cm;
+	left: 4.9cm;
+	color: red;
+	border-bottom: 2px solid black;
+	padding: 18px;
+}
